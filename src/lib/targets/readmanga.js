@@ -1,3 +1,0 @@
-/**
- * ReadManga.today Drifter
- */

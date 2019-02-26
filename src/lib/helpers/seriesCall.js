@@ -7,7 +7,7 @@ var _ = require('lodash');
 //run a a set of async calls synchrounously to avoid potentially massive memory costs
 //this can be moved over into a separate module
 function seriesRun(list, call, concurrent, exitonreject){
-    if(concurrent === null || concurrent === null || concurrent <= 0){
+    if(concurrent === null || concurrent === undefined || concurrent <= 0){
         concurrent = 1;
     }
     if(concurrent > list.length){

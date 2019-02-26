@@ -4,7 +4,7 @@
   "description": "A nightmare based automated content ripper meant for ripping scriptable sets of content",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node cli",
     "test": "jasmine"
   },
   "keywords": [
@@ -16,11 +16,13 @@
   "dependencies": {
     "es-7z": "^0.4.7",
     "fs-extra": "^2.1.2",
+    "inquirer": "^5.2.0",
     "jasmine": "^2.5.3",
     "lodash": "^4.17.4",
     "mime-types": "^2.1.15",
     "nedb": "^1.8.0",
     "nightmare": "^2.10.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "ws": "^5.2.1"
   }
 }
